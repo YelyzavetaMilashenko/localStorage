@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <header>
+    <nav data-include="partials/header.partial.html"></nav>
+  </header>
+  <body>
+    <div class="background-image">
+      <h4 class="text">
+        Are you looking for a job? Click on the button and fill out a small job
+        search form.
+      </h4>
+      <button type="button" class="btn btn-primary">Find a Job</button>
+    </div>
+    <main class="main">
+      <div data-include="partials/popular-prof.partial.html"></div>
+      
+      <div data-include="partials/about-us.partial.html"></div>
+      <div data-include="partials/vacancy.partial.html"></div>
+    </main>
+
+    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
